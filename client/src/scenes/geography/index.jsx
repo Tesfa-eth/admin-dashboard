@@ -5,12 +5,13 @@ import Header from "components/Header";
 import { ResponsiveChoropleth } from "@nivo/geo";
 import { geoData } from "state/geoData";
 
-function Geography() {
+const Geography = () => {
   const theme = useTheme();
-  const { data, isLoading } = useGetGeographyQuery();
+  const { data } = useGetGeographyQuery();
+
   return (
     <Box m="1.5rem 2.5rem">
-      <Header title="GEOGRAPHY" subtitle="Find where your users are located" />
+      <Header title="GEOGRAPHY" subtitle="Find where your users are located." />
       <Box
         mt="40px"
         height="75vh"
@@ -35,7 +36,7 @@ function Geography() {
                 ticks: {
                   line: {
                     stroke: theme.palette.secondary[200],
-                    strokeWidth: theme.palette.secondary[200],
+                    strokeWidth: 1,
                   },
                   text: {
                     fill: theme.palette.secondary[200],
@@ -60,9 +61,8 @@ function Geography() {
             label="properties.name"
             valueFormat=".2s"
             projectionScale={150}
-            projectionTranslation={[0.5, 0.6]}
+            projectionTranslation={[0.45, 0.6]}
             projectionRotation={[0, 0, 0]}
-            enableGraticule={true}
             borderWidth={1.3}
             borderColor="#ffffff"
             legends={[
@@ -97,6 +97,6 @@ function Geography() {
       </Box>
     </Box>
   );
-}
+};
 
 export default Geography;
