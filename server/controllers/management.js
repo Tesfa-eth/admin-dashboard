@@ -19,7 +19,7 @@ export const getUserPerformance = async (req, res) => {
       { $match: { _id: new mongoose.Types.ObjectId(id) } },
       {
         $lookup: {
-          from: "affiliateStats",
+          from: "affiliatestats",
           localField: "_id",
           foreignField: "userId",
           as: "affiliateStats",
@@ -33,14 +33,13 @@ export const getUserPerformance = async (req, res) => {
         return Transaction.findById(id);
       })
     );
-
-    const filterSaleTransactions = saleTransactions.filter(
+    const filteredSaleTransactions = saleTransactions.filter(
       (transaction) => transaction !== null
     );
 
     res
       .status(200)
-      .json({ user: userWithStats[0], sales: filterSaleTransactions });
+      .json({ user: userWithStats[0], sales: filteredSaleTransactions });
   } catch (error) {
     res.status(404).json({ message: error.message });
   }
