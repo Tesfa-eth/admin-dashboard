@@ -1,4 +1,5 @@
 import OverallStat from "../models/overallStat.js";
+import User from "../models/User.js";
 
 export const getSales = async (req, res) => {
   try {
