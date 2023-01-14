@@ -3,8 +3,8 @@
 This is an admin dashboard to manage products, transactions, performance, sales info with yearly, monthly, and daily breakdowns. Users can also get information about their customers and their geographical information. See the table below for detail info.
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
+- [Live Demo](#installation)
+- [Installation and Set up](#usage)
 - [Features](#basic-props)
   - [children](#children)
   - [itemToString](#itemtostring)
