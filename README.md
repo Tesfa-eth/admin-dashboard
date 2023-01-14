@@ -4,9 +4,10 @@ This is an admin dashboard to manage products, transactions, performance, sales 
 
 ## Table of Contents
 - [Demo](#demo)
-- [Video demo](#installation)
 - [Screeshots](#installation)
 - [Installation and Set up](#usage)
+- [Server](#usage)
+- [Client](#usage)
 - [Features](#basic-props)
   - [children](#children)
   - [itemToString](#itemtostring)
@@ -16,20 +17,20 @@ This is an admin dashboard to manage products, transactions, performance, sales 
 - [Contribute](#basic-props)
 
 # Demo
-The backend of the app is hosted on render.com. Since it is on a free plan, it takes some time to load.
-[Link](https://admin-dashboard-6p1s.onrender.com/).
+[Live link](https://admin-dashboard-6p1s.onrender.com/). The server is hosted on render.com. Since it is on a free plan, it takes some time to load. Here is [Video demo link](#).
 
-## Project Screen Shot(s)
+## Screenshots
 
 [ PRETEND SCREEN SHOT IS HERE ]
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+See more screen shots [here]()
 
-## Installation and Setup Instructions
-
-#### Example:  
+## Installation and Setup Instructions 
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+#### server:
+Open a terminal and cd to the server folder.
 
 Installation:
 
@@ -37,7 +38,27 @@ Installation:
 
 To Start Server:
 
-`npm start`  
+`npm start dev` 
+
+At this point you should see """ server running on: 5001""".
+
+To Visit App:
+
+`localhost:5001/{endpoints}` 
+
+#### Client:
+
+Once you have the server running, open another terminal and go into the client folder
+
+Installation:
+
+`npm install`  
+
+To Start Server:
+
+`npm start dev` 
+
+At this point you should see """ server running on: 5001""".
 
 To Visit App:
 
