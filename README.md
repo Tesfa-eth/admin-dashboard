@@ -11,6 +11,7 @@ This is an admin dashboard to manage products, transactions, performance, sales 
   - [onChange](#onchange)
   - [stateReducer](#statereducer)
 - [Tech used](#basic-props)
+- [Contribute](#basic-props)
 
 #### Example:
 
