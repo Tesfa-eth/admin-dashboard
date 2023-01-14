@@ -3,7 +3,9 @@
 This is an admin dashboard to manage products, transactions, performance, sales info with yearly, monthly, and daily breakdowns. Users can also get information about their customers and their geographical information. See the table below for detail info.
 
 ## Table of Contents
-- [Live Demo](#installation)
+- [Live Demo](#livedemo)
+- [Video demo](#installation)
+- [Screeshots](#installation)
 - [Installation and Set up](#usage)
 - [Features](#basic-props)
   - [children](#children)
@@ -13,22 +15,11 @@ This is an admin dashboard to manage products, transactions, performance, sales 
 - [Tech used](#basic-props)
 - [Contribute](#basic-props)
 
-#### Example:
-
-TweetWorld 
-
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
-
-## Project Status
-(only necessary if incomplete)
-
-#### Example:
-
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+## Live Demo
+The backend of the app is hosted on render.com. Since it is on a free plan, it takes some time to load.
+[Link](https://admin-dashboard-6p1s.onrender.com/).
 
 ## Project Screen Shot(s)
-
-#### Example:   
 
 [ PRETEND SCREEN SHOT IS HERE ]
 
@@ -43,10 +34,6 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 Installation:
 
 `npm install`  
-
-To Run Test Suite:  
-
-`npm test`  
 
 To Start Server:
 
