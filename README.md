@@ -5,11 +5,12 @@ This is an admin dashboard to manage products, transactions, performance, sales 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Basic Props](#basic-props)
+- [Features](#basic-props)
   - [children](#children)
   - [itemToString](#itemtostring)
   - [onChange](#onchange)
   - [stateReducer](#statereducer)
+- [Tech used](#basic-props)
 
 #### Example:
 
