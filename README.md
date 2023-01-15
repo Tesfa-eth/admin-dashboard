@@ -6,7 +6,7 @@ This is an admin dashboard to manage products, transactions, performance and sal
 - [Demo](#demo)
 - [Screeshots](#screenshots)
 - [Installation and Set up](#installation)
-  - [Server](#server)
+  - [Server](#server-briefcase)
   - [Client](#client-ribbon)
 - [Features](#basic-props)
   - [children](#children)
@@ -32,7 +32,7 @@ See more screen shots [here]()
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### Server 
+### Server :briefcase:
 Open a terminal and cd to the server folder.
 
 Installation:
