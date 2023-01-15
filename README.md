@@ -23,7 +23,8 @@ The server is hosted on render.com. Since it is on a free plan, it takes some ti
 
 ## Screenshots
 
-[ PRETEND SCREEN SHOT IS HERE ]
+<img width="1512" alt="Screen Shot 2023-01-15 at 11 56 09 AM" src="https://user-images.githubusercontent.com/62855279/212554811-6c6fff0e-4264-4cb3-bda3-da9c3cbd9dc0.png">
+
 
 See more screen shots [here]()
 
