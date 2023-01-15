@@ -7,7 +7,7 @@ This is an admin dashboard to manage products, transactions, performance and sal
 - [Screeshots](#screenshots)
 - [Installation and Set up](#installation)
   - [Server](#server)
-  - [Client](#client-:ribbon:)
+  - [Client](#client-ribbon)
 - [Features](#basic-props)
   - [children](#children)
   - [itemToString](#itemtostring)
