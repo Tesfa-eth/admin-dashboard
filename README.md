@@ -1,6 +1,6 @@
 ## admin-dashboard
 
-This is an admin dashboard to manage products, transactions, performance, sales info with yearly, monthly, and daily breakdowns. Users can also get information about their customers and their geographical information. See the table below for detail info.
+This is an admin dashboard to manage products, transactions, performance and sales info with yearly, monthly, and daily breakdowns. Users can also get information about their customers and their geographical information.
 
 ## Table of Contents
 - [Demo](#demo)
@@ -17,7 +17,9 @@ This is an admin dashboard to manage products, transactions, performance, sales 
 - [Contribute](#basic-props)
 
 # Demo
-[Live link](https://admin-dashboard-6p1s.onrender.com/). The server is hosted on render.com. Since it is on a free plan, it takes some time to load. Here is [Video demo link](#).
+#### [Live link](https://admin-dashboard-6p1s.onrender.com/). 
+
+The server is hosted on render.com. Since it is on a free plan, it takes some time to load. Thank you for your patience. Also, find the video demo link [here](#).
 
 ## Screenshots
 
@@ -29,7 +31,7 @@ See more screen shots [here]()
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-#### server:
+#### server :briefcase: :
 Open a terminal and cd to the server folder.
 
 Installation:
@@ -42,11 +44,11 @@ To Start Server:
 
 At this point you should see """ server running on: 5001""".
 
-To Visit App:
+To visit api endpoints:
 
 `localhost:5001/{endpoints}` 
 
-#### Client:
+#### Client :ribbon: :
 
 Once you have the server running, open another terminal and go into the client folder
 
@@ -58,11 +60,9 @@ To Start Server:
 
 `npm start dev` 
 
-At this point you should see """ server running on: 5001""".
-
 To Visit App:
 
-`localhost:3000/ideas`  
+`localhost:3000`  
 
 ## Reflection
 
