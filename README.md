@@ -31,8 +31,7 @@ See more screen shots [here]()
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-# server 
-:briefcase: :
+### server 
 Open a terminal and cd to the server folder.
 
 Installation:
@@ -49,7 +48,7 @@ To visit api endpoints:
 
 `localhost:5001/{endpoints}` 
 
-#### Client :ribbon: :
+### Client :ribbon: :
 
 Once you have the server running, open another terminal and go into the client folder
 
