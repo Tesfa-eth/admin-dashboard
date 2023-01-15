@@ -109,6 +109,10 @@ At the end of the day, the technologies implemented in this project are React, R
 
 # Technologies used
 
+Front-end: [React](reatjs.org), [Material UI](mui.com), [Nivo](https://nivo.rocks/).
+
+Backend: [Node](https://nodejs.org/en/), Express(https://expressjs.com/), [MongoDb](https://www.mongodb.com/) and [Mongoose](https://mongoosejs.com/)
+
 # Contribute
 Feel free to create a pull request to contribute. You can also reach out to me at stesfatsionmulugeta@gmaiil.com
 
