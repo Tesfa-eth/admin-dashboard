@@ -50,7 +50,7 @@ To visit api endpoints:
 
 `localhost:5001/{endpoints}` 
 
-### Client :ribbon:
+### Client :computer:
 
 Once you have the server running, open another terminal and go into the client folder
 
