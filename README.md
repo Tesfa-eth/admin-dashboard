@@ -16,7 +16,7 @@ This is an admin dashboard to manage products, transactions, performance and sal
   - [onChange](#onchange)
   - [stateReducer](#statereducer)
 - [Technologies used](#technologies-used)
-- [Contribute](#basic-props)
+- [Contribute](#contribute)
 
 # Demo
 #### [Live link](https://admin-dashboard-6p1s.onrender.com/). 
