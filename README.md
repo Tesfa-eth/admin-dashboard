@@ -5,7 +5,7 @@ This is an admin dashboard to manage products, transactions, performance and sal
 ## Table of Contents
 - [Demo](#demo)
 - [Screeshots](#installationandSetup)
-- [Installation and Set up](#setup)
+- [Installation and Set up](#installation)
   - [Server](#server)
   - [Client](#client)
 - [Features](#basic-props)
@@ -27,7 +27,7 @@ The server is hosted on render.com. Since it is on a free plan, it takes some ti
 
 See more screen shots [here]()
 
-## Installation and Setup
+## Installation
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
