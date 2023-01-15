@@ -1,5 +1,5 @@
 ## admin-dashboard
-[![npm](https://img.shields.io/npm/v/immer.svg)](https://www.npmjs.com/package/immer) [![Build Status](https://travis-ci.org/immerjs/immer.svg?branch=master)](https://travis-ci.org/immerjs/immer) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![OpenCollective](https://opencollective.com/immer/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/immer/sponsors/badge.svg)](#sponsors) [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/immerjs/immer)
+[![npm](https://img.shields.io/npm/v/immer.svg)](https://www.npmjs.com/package/immer) [![Build Status](https://travis-ci.org/immerjs/immer.svg?branch=master)](https://travis-ci.org/immerjs/immer) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 This is an admin dashboard to manage products, transactions, performance and sales info with yearly, monthly, and daily breakdowns. Users can also get information about their customers and their geographical information.
 
