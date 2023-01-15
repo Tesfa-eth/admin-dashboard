@@ -10,11 +10,6 @@ This is an admin dashboard to manage products, transactions, performance and sal
   - [Server](#server-briefcase)
   - [Client](#client-ribbon)
 - [File Structure](#file-structure)
-- [Features](#basic-props)
-  - [children](#children)
-  - [itemToString](#itemtostring)
-  - [onChange](#onchange)
-  - [stateReducer](#statereducer)
 - [Technologies used](#technologies-used)
 - [Contribute](#contribute)
 
