@@ -109,3 +109,6 @@ At the end of the day, the technologies implemented in this project are React, R
 
 # Technologies used
 
+# Contribute
+Feel free to create a pull request to contribute. You can also reach out to me at stesfatsionmulugeta@gmaiil.com
+
