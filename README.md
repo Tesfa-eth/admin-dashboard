@@ -5,7 +5,7 @@ This is an admin dashboard to manage products, transactions, performance and sal
 ## Table of Contents
 - [Demo](#demo)
 - [Screeshots](#installationandSetup)
-- [Installation and Set up](#usage)
+- [Installation and Set up](#setup)
   - [Server](#server)
   - [Client](#client)
 - [Features](#basic-props)
