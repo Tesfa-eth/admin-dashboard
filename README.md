@@ -7,7 +7,7 @@ This is an admin dashboard to manage products, transactions, performance and sal
 - [Screeshots](#screenshots)
 - [Installation and Set up](#installation)
   - [Server](#server)
-  - [Client](#client)
+  - [Client](#client-:ribbon:)
 - [Features](#basic-props)
   - [children](#children)
   - [itemToString](#itemtostring)
@@ -49,7 +49,7 @@ To visit api endpoints:
 
 `localhost:5001/{endpoints}` 
 
-### Client
+### Client :ribbon:
 
 Once you have the server running, open another terminal and go into the client folder
 
