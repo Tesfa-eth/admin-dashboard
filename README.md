@@ -31,7 +31,7 @@ See more screen shots [here]()
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-#### server :briefcase: :
+# server :briefcase: :
 Open a terminal and cd to the server folder.
 
 Installation:
