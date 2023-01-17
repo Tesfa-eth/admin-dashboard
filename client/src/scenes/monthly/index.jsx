@@ -2,8 +2,17 @@ import React, { useMemo } from "react";
 import { Box, useTheme } from "@mui/material";
 import Header from "components/Header";
 import { ResponsiveLine } from "@nivo/line";
+import { PulseLoader } from "react-spinners";
 import { useGetSalesQuery } from "state/api";
 
+const override = {
+  margin: "auto",
+  width: "50%",
+  height: "70vh",
+  padding: "10px",
+  padding: "70px 0",
+  textAlign: "center",
+};
 const Monthly = () => {
   const { data } = useGetSalesQuery();
   const theme = useTheme();
@@ -146,7 +155,15 @@ const Monthly = () => {
             ]}
           />
         ) : (
-          <>Loading...</>
+          <>
+            <PulseLoader
+              color={theme.palette.secondary[700]}
+              loading={data}
+              cssOverride={override}
+              aria-label="Loading pulse loader"
+              data-testid="loader"
+            />
+          </>
         )}
       </Box>
     </Box>

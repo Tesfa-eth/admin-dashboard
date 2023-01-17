@@ -4,7 +4,19 @@ import Header from "components/Header";
 import { ResponsiveLine } from "@nivo/line";
 import { useGetSalesQuery } from "state/api";
 import DatePicker from "react-datepicker";
+import { PulseLoader } from "react-spinners";
 import "react-datepicker/dist/react-datepicker.css";
+
+const override = {
+  // display: "bloc",
+  // //margin: "0 auto",
+  margin: "auto",
+  width: "50%",
+  height: "70vh",
+  padding: "10px",
+  padding: "70px 0",
+  textAlign: "center",
+};
 
 const Daily = () => {
   const [startDate, setStartDate] = useState(new Date("2021-02-01"));
@@ -177,7 +189,15 @@ const Daily = () => {
             ]}
           />
         ) : (
-          <>Loading...</>
+          <>
+            <PulseLoader
+              color={theme.palette.secondary[700]}
+              loading={data}
+              cssOverride={override}
+              aria-label="Loading pulse loader"
+              data-testid="loader"
+            />
+          </>
         )}
       </Box>
     </Box>

@@ -13,11 +13,17 @@ import {
 } from "@mui/material";
 import Header from "components/Header";
 import { useGetProductsQuery } from "state/api";
-import ClipLoader from "react-spinners/ClipLoader";
+import { PulseLoader } from "react-spinners";
 
 const override = {
-  display: "block",
-  margin: "0 auto",
+  // display: "bloc",
+  // //margin: "0 auto",
+  margin: "auto",
+  width: "50%",
+  height: "70vh",
+  padding: "10px",
+  padding: "70px 0",
+  textAlign: "center",
 };
 
 const Product = ({
@@ -139,12 +145,11 @@ const Products = () => {
         </Box>
       ) : (
         <>
-          <ClipLoader
+          <PulseLoader
             color={theme.palette.secondary[700]}
             loading={isLoading}
-            size={150}
             cssOverride={override}
-            aria-label="Loading Spinner"
+            aria-label="Loading pulse loader"
             data-testid="loader"
           />
         </>
