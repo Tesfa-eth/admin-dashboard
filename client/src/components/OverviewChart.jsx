@@ -1,7 +1,19 @@
 import React, { useMemo } from "react";
 import { ResponsiveLine } from "@nivo/line";
 import { useTheme } from "@mui/material";
+import { PulseLoader } from "react-spinners";
 import { useGetSalesQuery } from "state/api";
+
+const override = {
+  // display: "bloc",
+  // //margin: "0 auto",
+  margin: "auto",
+  width: "50%",
+  height: "70vh",
+  padding: "10px",
+  padding: "70px 0",
+  textAlign: "center",
+};
 
 const OverviewChart = ({ isDashboard = false, view }) => {
   const theme = useTheme();
@@ -44,7 +56,16 @@ const OverviewChart = ({ isDashboard = false, view }) => {
     return [[totalSalesLine], [totalUnitsLine]];
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  if (!data || isLoading) return "Loading...";
+  if (!data || isLoading)
+    return (
+      <PulseLoader
+        color={theme.palette.secondary[700]}
+        loading={isLoading}
+        cssOverride={override}
+        aria-label="Loading pulse loader"
+        data-testid="loader"
+      />
+    );
 
   return (
     <ResponsiveLine
