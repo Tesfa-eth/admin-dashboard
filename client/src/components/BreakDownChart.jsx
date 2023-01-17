@@ -2,12 +2,31 @@ import React from "react";
 import { ResponsivePie } from "@nivo/pie";
 import { Box, Typography, useTheme } from "@mui/material";
 import { useGetSalesQuery } from "state/api";
+import { PulseLoader } from "react-spinners";
+
+const override = {
+  margin: "auto",
+  width: "50%",
+  height: "70vh",
+  padding: "10px",
+  padding: "70px 0",
+  textAlign: "center",
+};
 
 const BreakdownChart = ({ isDashboard = false }) => {
   const { data, isLoading } = useGetSalesQuery();
   const theme = useTheme();
 
-  if (!data || isLoading) return "Loading...";
+  if (!data || isLoading)
+    return (
+      <PulseLoader
+        color={theme.palette.secondary[700]}
+        loading={isLoading}
+        cssOverride={override}
+        aria-label="Loading pulse loader"
+        data-testid="loader"
+      />
+    );
 
   const colors = [
     theme.palette.secondary[500],
