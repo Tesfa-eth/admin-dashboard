@@ -96,8 +96,7 @@ At the end of the day, the technologies implemented in this project are React, R
 - #### `controllers` - These hold all of the callback functions that each route will call
 - #### `models` - This holds all of our data models
 - #### `routes` - This holds all of our HTTP to URL path associations for each unique url
-- #### `tests` - This holds all of our server tests that we have defined
-- #### `server.js` - Defines npm behaviors and packages for the client
+- #### `index.js` - Defines mongoose configuration and connect to database as well as base routes.
 #### `package.json` - Defines npm behaviors like the scripts defined in the next section of the README
 #### `.gitignore` - Tells git which files to ignore
 #### `README` - This file!
